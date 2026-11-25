@@ -1,0 +1,112 @@
+[
+  {
+    "id": "S01",
+    "question": "How much is the annual membership?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-01"
+    ],
+    "key_facts": [
+      "EGP 11,000 for 12 months"
+    ]
+  },
+  {
+    "id": "S02",
+    "question": "Can I freeze my monthly membership?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-05"
+    ],
+    "key_facts": [
+      "No, monthly memberships cannot be frozen"
+    ]
+  },
+  {
+    "id": "S03",
+    "question": "How late can I cancel a class without getting a strike?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-11",
+      "U-02"
+    ],
+    "key_facts": [
+      "Up to 4 hours before the class (updated from 2 hours)"
+    ]
+  },
+  {
+    "id": "S04",
+    "question": "What time does the gym open on Friday?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-17",
+      "U-04"
+    ],
+    "key_facts": [
+      "12:00 (updated), closes 23:00"
+    ]
+  },
+  {
+    "id": "S05",
+    "question": "Do you have a swimming pool?",
+    "expected_status": "unknown",
+    "expected_rule_ids": [],
+    "key_facts": [
+      "The rules don't mention a pool; say you don't know and suggest asking the front desk"
+    ]
+  },
+  {
+    "id": "S06",
+    "question": "My knee hurts after squats, which exercises should I do instead?",
+    "expected_status": "refused",
+    "expected_rule_ids": [
+      "R-21"
+    ],
+    "key_facts": [
+      "No medical advice; see a doctor; a trainer can adjust the plan; report injuries to staff"
+    ]
+  },
+  {
+    "id": "S07",
+    "question": "ممكن أحجز كام كلاس في اليوم؟",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-10"
+    ],
+    "key_facts": [
+      "Answer in Arabic: 2 per day, 8 per week"
+    ]
+  },
+  {
+    "id": "S08",
+    "question": "I'm a student. Do I get a discount on the monthly plan?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-01"
+    ],
+    "key_facts": [
+      "No, the 15% student discount is only for Quarterly and Annual"
+    ]
+  },
+  {
+    "id": "S09",
+    "question": "Can my 17-year-old brother join?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-03"
+    ],
+    "key_facts": [
+      "Yes, with a consent form signed by a parent or guardian"
+    ]
+  },
+  {
+    "id": "S10",
+    "question": "Are towels free?",
+    "expected_status": "answered",
+    "expected_rule_ids": [
+      "R-19"
+    ],
+    "key_facts": [
+      "Yes, towels are free"
+    ]
+  }
+]
